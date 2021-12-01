@@ -1,2 +1,2 @@
 # aoc2021
-advent of code, 2021
+personal solutions for advent of code, 2021
