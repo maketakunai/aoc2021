@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-with open('./01_input.txt') as input_file:
+with open('./input/01_input.txt') as input_file:
     depths = [int(i) for i in input_file.read().splitlines()]
     
 counter = 0
