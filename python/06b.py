@@ -4,7 +4,7 @@ with open('./input/06_input.txt') as input_file:
     fish = input_file.read().splitlines()
 fish = list(map(int,fish[0].split(',')))
 
-#changed approach since trying to brute force part 1 would not be fun
+#changed approach since trying to brute force part 2 would not be fun
 
 fish_data = {x:0 for x in range(9)}
 input = {i : fish.count(i) for i in fish}
